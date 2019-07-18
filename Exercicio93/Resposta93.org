@@ -1,0 +1,5 @@
+Para deixar de usar locks explícitos, criamos um objeto na classe
+principal para atuar como monitor. As subclasses usam esse objeto para
+sincronizatem as leituras e escritas.
+
+Não encontramos grandes dificuldades.
